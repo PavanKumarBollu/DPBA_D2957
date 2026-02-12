@@ -1,0 +1,109 @@
+Srikanth
+Chandra sheker
+Sudharshan
+somu Mahesh
+jalini
+nitin chanumolu
+
+sai Lavanya
+sainth 
+sricharan
+shirisha
+
+mahendra
+
+Pavani s
+
+
+
+
+things we are gonna learn in this course
+----------------------------------------
+
+GitHub --> Extra 
+
+
+BasicExcel
+AdvancedExcel
+PowerBi
+PowerQueryEditor in PB[ ETL(Extract Transform Load)]
+SQL(Complete Sql Till Joins) --> MySQL is a just a tool for learning the Sql concepts
+Bussiness
+IT & Data Fundamentals 
+Basic Statistics
+
+
+if time permits then we can also learn the python language also 
+
+GenAI(Not there in the course but we will try to see if time is there then we will learn the basics of this course)
+or i will try to provide the some self learning course if possible
+
+
+two possiblilties are there with respect to the class timings 10 - 1 or 4 - 6pm  apart from this timings it is not possible for taking the classes in other timings after 6 but i can take the classes in the early morning like 8 - 10am 
+
+4 - 6pm -- this timings are fixed for now
+
+Task:
+----
+
+Create the GitHub acconnt keep it ready with you in the coming Monday i will collect all of your git hub links for future use
+
+
+
+
+Monday
+------
+
+Reminder for bringing the AE Person for having a talk with this batch
+
+
+
+Rules And Regulations of this Course
+------------------------------------
+
+1. join the classes using the registered email id only (Very important for the attendance part)
+
+2. the attendance will be calculated in the following way
+	for Example : if the class id there for 2 hours everyday for 30 days => 60 
+	then if you joined the class for 1 hours in a day then you attendance will be like 
+		1/2 => 50 % per that day like this everyday the attendance will be calculated for all the classes happened in the online
+	
+
+	even if you were out of the call for some time like 2 minutes also till will deduct this time in total present time of the class
+	even due to network issues if you missed 5 - 10 minutes of class that will be also calculated as a missed time
+
+	if attendance less then 70% percentage then you are not eligible for the placements
+	so strictly we have to follow the timings there is not other way
+
+since this is some what free course people think we won't care much but this is not the case with my batch i will check each and everything by my self to make sure that opportunities are going to the right people only 
+
+
+3. while the course is going on each and every module will have some labs and mcq that is vey much compulsory for the certification part if you are not doing the labs then there are high chances that you may not get the certificate ( or get the certificate with c or d grade mentioning on the certificate)
+
+
+
+4. along with labs mcqs we have more better ways of learning is there like aptitude and icharts sprint(project)
+
+
+5. Auto Dropout if you are absent or attendance is less than 50% or not doing the labs or taks given to you then automatically system will remove you from the cmis and considers you as dropout and you will not longer able to get the certificate we need to be carefull in each step
+
+
+
+
+BasicExcel
+AdvancedExcel
+PowerBi
+SQL
+
+
+
+
+
+
+
+
+
+
+
+
+
