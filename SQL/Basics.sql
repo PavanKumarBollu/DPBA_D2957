@@ -13,6 +13,7 @@ USE dpba2957;
 -- gender varchar(5)
 -- );
 
+
 CREATE TABLE IF NOT EXISTS users(
 sno int primary key,
 stdfname varchar(50), 
