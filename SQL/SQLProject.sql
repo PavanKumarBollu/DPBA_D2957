@@ -18,28 +18,10 @@ updated_at TIMESTAMP
 
 -- insert a single record into the auth_user table
 INSERT INTO lfl.auth_user (
-	id, 
-	login_id, 
-    password, 
-    role, 
-    status, 
-    failed_attempts, 
-    account_locked,
-	is_active, 
-    created_at, 
-    updated_at) 
-    values (
-    1,
-    "AF1234567890",
-    "12345",
-    "Student",
-    "Active",
-    2,
-    FALSE,
-    TRUE,
-    now(),
-    now()
-);
+	id, 	login_id,     password,     role,    status,     failed_attempts, 
+    account_locked,	is_active,     created_at,     updated_at) 
+    values (    1,    "AF1234567890",    "12345",    "Student",   "Active",
+    2,    FALSE,    TRUE,    now(),    now());
 
 -- insert a single record into the auth_user table
 INSERT INTO lfl.auth_user () 
