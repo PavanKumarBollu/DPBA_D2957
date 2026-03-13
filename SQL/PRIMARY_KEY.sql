@@ -36,6 +36,32 @@ updated_at TIMESTAMP,
 PRIMARY KEY(id) -- specifiy the id as primary key
 );
 
+-- difference between specifying specific feild or specifying at last
+
+CREATE TABLE IF NOT EXISTS lfl.batch_trainerwithtwopk(
+id BIGINT,
+batch_id BIGINT, 
+trainer_id VARCHAR(50),
+is_primary BOOLEAN DEFAULT  FALSE,
+is_active BOOLEAN  DEFAULT TRUE,
+created_at TIMESTAMP,
+updated_at TIMESTAMP,
+
+PRIMARY KEY(id, batch_id) 
+);
+
+
+
+
+ALTER TABLE lfl.auth_user ADD CONSTRAINT pk PRIMARY KEY (id);
+
+
+
+
+
+
+
+
 
 
 
