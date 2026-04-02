@@ -16,12 +16,45 @@ WHERE id = 3;
 UPDATE lfl.auth_user
 SET lfl.auth_user.failed_attempts = 0;
 
+-- updating the multiple columns
+
+UPDATE lfl.auth_user 
+SET lfl.auth_user.role = "Admin", lfl.auth_user.status="Active"
+WHERE id = 3;
 
 
 
+-- updating the multiple rows
+-- update the user age by 1 means age = age + 1;
+
+UPDATE lfl.students
+SET lfl.students.age = lfl.students.age + 1
+where lfl.students.age > 20;
+
+UPDATE lfl.students
+SET lfl.students.age = lfl.students.age + 1
+where lfl.students.sno in (2,3);
 
 
+-- update table data based on other table data
 
+UPDATE lfl.educationdetails e
+JOIN lfl.students s ON e.educationId = s.educationId
+SET e.highestQualification = " MSC"
+WHERE s.sno = 1;
+
+
+-- update one column based on the other column value ( Conditional Update)
+UPDATE lfl.auth_user a
+SET a. status = 
+CASE 
+	WHEN a.failed_attempts >= 3 THEN 'Blocked'
+    ELSE 'Active'
+END;
+
+-- REAL TIME EXAMPLE OF WRITING THE ABOVE TYPE OF QUERY
+-- CHECK THE BATCH CLOSE DATE AND COMPARE WITH TODAY DATE IF THE DATE IS LESS THEN MAKE THE 
+-- BATCH STATUS AS COMPLETED ELSE WE WILL MAKE IT AS ACTIVE 
 
 
 
