@@ -19,7 +19,12 @@ ALTER TABLE lfl.students
 CHANGE studentName stdName varchar(50);
 
 
+-- adding the FK Relationship to the tables after creating
 
+ALTER TABLE lfl.user_profile 
+ADD CONSTRAINT fk_auth_user_table
+FOREIGN KEY (user_id)
+REFERENCES lfl.auth_user(login_id);
 
 
 
