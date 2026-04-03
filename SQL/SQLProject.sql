@@ -3,7 +3,7 @@ CREATE DATABASE IF NOT EXISTS LFL;
 USE LFL;
 
 -- creating the auth_user Table  
-CREATE TABLE IF NOT EXISTS auth_user(
+CREATE TABLE IF NOT EXISTS lfl.auth_user(
 id BIGINT,
 login_id VARCHAR(50) UNIQUE NOT NULL,
 password VARCHAR(255) NOT NULL,
@@ -64,8 +64,8 @@ INSERT INTO lfl.auth_user (
 
 
 CREATE TABLE IF NOT EXISTS lfl.user_profile(
-id BIGINT PRIMARY KEY,
-user_id VARCHAR(50),
+id BIGINT,
+user_id VARCHAR(50) PRIMARY KEY UNIQUE,
 first_name VARCHAR(100),
 middle_name VARCHAR(100),
 last_name VARCHAR(100),
