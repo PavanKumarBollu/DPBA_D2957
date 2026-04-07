@@ -73,12 +73,24 @@ Steps
 
 
 
-
-
-
-
-
 2. decide how many tables we may need for this project 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 3. create sample E-R diagram for the database part
 4. create all the assuemend tables and their datatypes
 5. once the database design and tables are ready create the same in the database server
