@@ -1,0 +1,101 @@
+How to get the data for doing the project on the technologies which we learnt. ?
+
+Answer : 
+1. 
+using any one data source platforms like Kaggle ... etc
+
+
+2. 
+there is one more way is also there but for that we should know any one programming language like python or java .. etc
+
+assuming that we have prior knowledge on any one programming language we will develop  the project like the following
+
+first we will define the database and their tables to store the information 
+then we will create some dummy records using the programming language (python or java)
+then that records will be inserted to the database (bulk insert)
+then we will create a connection and start doing the job 
+
+3.
+
+Note: industry ways : -
+in real time job we won't download the data from external place but we will have our won company data or client shares the data with us to work 
+
+in real time we will have the server and database with all the required tables and records ready made we just need to establish a connection form our system then download the data which we want to work then do the job.
+
+
+Project Data file Link
+https://www.kaggle.com/datasets/belbino/indian-banking-transactions-20192024
+
+
+Steps
+======
+
+1. go through the data set which we downloaded .
+2. decide how many tables we may need for this project 
+3. create sample E-R diagram for the database part
+4. create all the assuemend tables and their datatypes
+5. once the database design and tables are ready create the same in the database server
+6. once this is done establish the connection between the application like Excel to My Sql or Power Bi to Sql
+7. we will establish the connection from excel to Sql then simple get very quick insights about the data 
+8. create a pivot table in excel to understand the different things present with respect to the data we have
+9. once this basic thin is ready now its time to create dashboard
+10. we will establish the connection between the powerbi and Sql 
+11. bring the data into pbi then do create all the measures which we require
+12. create some reports 
+13. create a dashboard
+14. make the auto refresh to update the data in a frequency
+15. start explain the data with charts
+
+
+=================================================
+
+
+1. go through the data set which we downloaded.
+
+=> in the data we have a unique column as transaction_id where each transaction has been given a id to identify the transaction 
+=> there is a custormer_id column where it will represent which customer has done the transaction (duplicate values are there)
+=> there is a column called transaction_date where it will represent the date of the transaction (in a single day there will be multiple transactions)
+=> there is a column called trasaction_time to represent at what time the transaction has been made (24 hours of time format)
+=> there is a column called account_type to represent what type of account the user has used for doing the transaction (limited values but duplicated)
+=> there is a column called transaction_type to represent what kind of transaction it is like upi or debit card or credit card(limited values but duplicated)
+=> there is a column called transaction_amount to represent the actual transferred
+=> there is a column called transaction_direction to represent weather the money has credited or debit from the user account
+=> account_balance to represent after the transaction what is the amount present in the account
+=> merchant_category to represent the what kind of use the transaction has made like food (limited values but duplicated)
+=> state which state of the country the transaction has made 
+=> credit_score what is the credit score of the user
+=> there is a column called has_loan  does the user have any loans on theire names
+=> there is a column called loan_type what is the loan type
+=> there is a column called emi_amount what is the amount paying on monthly emi
+=> there is a column called transaction_status to represent weather the transaction is success or not
+=> there is a column called channel where the transaction has been placed like branch or mobile ..etc
+
+
+
+
+
+
+
+
+
+2. decide how many tables we may need for this project 
+3. create sample E-R diagram for the database part
+4. create all the assuemend tables and their datatypes
+5. once the database design and tables are ready create the same in the database server
+6. once this is done establish the connection between the application like Excel to My Sql or Power Bi to Sql
+7. we will establish the connection from excel to Sql then simple get very quick insights about the data 
+8. create a pivot table in excel to understand the different things present with respect to the data we have
+9. once this basic thin is ready now its time to create dashboard
+10. we will establish the connection between the powerbi and Sql 
+11. bring the data into pbi then do create all the measures which we require
+12. create some reports 
+13. create a dashboard
+14. make the auto refresh to update the data in a frequency
+15. start explain the data with charts
+
+
+
+
+
+
+
