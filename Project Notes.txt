@@ -75,8 +75,12 @@ Steps
 
 2. decide how many tables we may need for this project 
 
+as per the data we have we are going to create the following tables for easy access and we will make sure that there
+will be proper relationship between the table is present so when we retrieve some data we will get proper records
 
 
+
+as of now we have decide to have this many tables only but if requirement has come then we will add more number of tables later
 
 
 
