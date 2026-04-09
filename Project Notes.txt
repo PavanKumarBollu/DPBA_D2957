@@ -96,9 +96,13 @@ as of now we have decide to have this many tables only but if requirement has co
 
 
 3. create sample E-R diagram for the database part
+
 4. create all the assuemend tables and their datatypes
+
 5. once the database design and tables are ready create the same in the database server
+
 6. once this is done establish the connection between the application like Excel to My Sql or Power Bi to Sql
+
 7. we will establish the connection from excel to Sql then simple get very quick insights about the data 
 8. create a pivot table in excel to understand the different things present with respect to the data we have
 9. once this basic thin is ready now its time to create dashboard
