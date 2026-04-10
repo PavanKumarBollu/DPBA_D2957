@@ -105,7 +105,8 @@ as of now we have decide to have this many tables only but if requirement has co
 
 7. we will establish the connection from excel to Sql then simple get very quick insights about the data 
 8. create a pivot table in excel to understand the different things present with respect to the data we have
-9. once this basic thin is ready now its time to create dashboard
+9. once this basic thing is ready now its time to create dashboard
+
 10. we will establish the connection between the powerbi and Sql 
 11. bring the data into pbi then do create all the measures which we require
 12. create some reports 
